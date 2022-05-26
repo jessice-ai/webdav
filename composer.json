@@ -1,0 +1,34 @@
+{
+    "name": "administrator/phpdav",
+    "autoload": {
+        "psr-4": {
+            "Administrator\\Phpdav\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sun"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "config/WebInfo.php",
+            "lib/Status.php",
+            "lib/DavXml.php",
+            "lib/Curl.php",
+            "lib/Dav.php",
+            "lib/WebDav.php",
+            "method/Head.php",
+            "method/Get.php",
+            "method/Propfind.php",
+            "method/Delete.php",
+            "method/Put.php",
+            "method/Mkcol.php",
+            "method/Move.php",
+            "method/Options.php",
+            "method/Lock.php",
+            "method/Proppatch.php"
+        ]
+    }
+}
