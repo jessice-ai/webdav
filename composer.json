@@ -1,5 +1,5 @@
 {
-    "name": "administrator/phpdav",
+    "name": "jessice/phpdav",
     "autoload": {
         "psr-4": {
             "Administrator\\Phpdav\\": "src/"
